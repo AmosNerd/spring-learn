@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:log4jdbc:mysql://129.28.178.2:3306/voice?useUnicode=true&allowMultiQueries=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 3254385409zxc
+    hikari:
+      max-lifetime: 10800000
+      maximum-pool-size: 20
+server:
+  port: 8086
